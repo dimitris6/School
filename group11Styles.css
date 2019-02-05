@@ -1,0 +1,25 @@
+nav {font-weight: bold; color: white; border: 2px solid Grey; text-align: center; background-color: Black;}
+nav:hover ul {display: block;}
+nav ul li {display: inline-block; background-color: black; width: 100px; margin: 0; padding: 0; list-style: none;}
+nav ul li:hover {background-color:#333;}
+a {text-decoration:none; color: white}
+.banner {font-weight: bolder; height: 60px;}
+body {font-family: Helvetica, sans-serif; color: #ffffff; margin-top: 25px; margin-bottom: 25px; margin-right: 25px; margin-left: 25px; background: url("bgimage.jpg");
+	  background-repeat: repeat; background-color: #b6b6b6; background-size: 100%;}
+#demobox {
+  background-color: black ;
+  padding: 20px ;
+  border: 2px solid Grey ;
+}
+#frontpage {
+  background-color: black ;
+  padding: 20px ;
+  border: 2px solid Grey ;
+  color: white;
+  font-size: 22;
+}
+#content {font-family: Monaco;}
+div>p {font-family: Courier New;}
+img {width: 50px; height: auto;}
+@media print {body {backgroud-color:white;} hl {color: SeaGreen;} p {font-size: 14pt; color: SteelBlue; font-family: "times new roman", times, serif;}}
+

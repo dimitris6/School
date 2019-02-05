@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dice Roll</title>
+		<meta charset="utf-8"/>
+		<script type="text/javascript" src="diceroll.js"></script>
+		<link rel="stylesheet" type="text/css" href="group11Styles.css"/>
+		<body style="background-image:url('bgimage_stars.png')">
+		<style type="text/css">
+			
+			table,tr {border: 1px solid white;
+					  width: 400px;
+					  border-collapse: collapse;					  
+			}
+			body {margin:40px;}
+		</style>
+	</head>
+	<body>
+
+		<h1>Roll the dice!</h1>
+		<table class="heading">
+							
+			Hit Roll! button to begin				
+			<br><br>
+			<tr>
+				<td><input type="button" value="Roll!" id="dicerollButton"/></td>
+				<td><input type="button" value="Reset Page" id="resetButton"/></td>
+			</tr>
+		</table>
+		<p>
+			<table><caption>Roll the dice!</caption>
+			<thead><tr> <td>Roll #</td><td>Your Result</td><td>Computer Result</td><td>Highest Wins</td></tr>
+			</thead>
+			<tbody id="tableBody"></tbody>
+			</table>
+		</p>
+	</body>	
+</html>

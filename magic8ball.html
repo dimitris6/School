@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Magic 8 Ball</title>
+		<meta charset="utf-8"/>
+		<script type="text/javascript" src="magic8ball.js"></script>
+		<link rel="stylesheet" type="text/css" href="group11Styles.css"/>
+		<body style="background-image:url('bgimage_stars.png')">
+		<style type="text/css">
+			
+			table,tr {border: 1px solid white;
+					  width: 400px;
+					  border-collapse: collapse;					  
+			}
+			body {margin:40px;}
+		</style>	
+	</head>
+	<body>
+		<h1>Ask a question!</h1>
+		<table class="heading">
+							
+			Type a yes or no question in the box and hit the Answer button				
+			<br><br>
+			<tr>
+				<td><input type="text" name="questiontxt" value=""></td>
+				<td><input type="button" value="Answer" id="answerButton"/></td>
+			</tr>
+		</table>
+		<p>
+		Your Answer			
+		</p>
+		<p id="answerBody"></p>
+	</body>	
+</html>
